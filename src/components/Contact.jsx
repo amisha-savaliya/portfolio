@@ -7,7 +7,7 @@ function Contact() {
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold mb-12">Contact Me</h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+<div className="flex flex-wrap justify-center gap-6">
           {/* Email */}
           <a
             href="mailto:savaliyaamisha083@gmail.com"

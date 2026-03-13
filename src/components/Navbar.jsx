@@ -1,33 +1,23 @@
 import ThemeToggle from "./ThemeToggle";
-
 function Navbar() {
   return (
+    <nav className="bg-white dark:bg-gray-900 shadow px-6 py-4">
+      
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
 
-    <nav className="flex justify-between items-center px-10 py-6 max-w-6xl mx-auto">
-    {/* <nav className="bg-white dark:bg-gray-900 shadow transition-colors duration-500"> */}
+        <h1 className="text-xl font-bold text-blue-600">
+          Amisha Savaliya
+        </h1>
 
-      <h1 className="text-xl font-bold text-blue-600 hover:scale-105 transition">
-        Amisha
-      </h1>
+        <ul className="flex flex-wrap justify-center gap-6 text-sm md:text-base">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-      <div className="flex gap-8 items-center">
 
-        <a href="#about" className="hover:text-blue-600 transition">
-          About
-        </a>
-
-        <a href="#projects" className="hover:text-blue-600 transition">
-          Projects
-        </a>
-
-        <a href="#contact" className="hover:text-blue-600 transition">
-          Contact
-        </a>
-
-        <ThemeToggle/>
-
+        <ThemeToggle />
       </div>
-
     </nav>
   );
 }

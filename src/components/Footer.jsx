@@ -1,8 +1,10 @@
 function Footer() {
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 py-10 transition-colors duration-500">
 
-      <div className="max-w-6xl mx-auto px-6">
+    <footer className="bg-gray-100 dark:bg-gray-900 py-10 transition-colors duration-500 px-6">
+
+
+<div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
 
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6">
 
